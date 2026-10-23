@@ -829,10 +829,18 @@ def dashboard():
     c, d = st.columns(2)
     tk = task_df()
     c.subheader("Tasks by status")
-    c.bar_chart(tk["status"].value_counts()) if len(tk) else c.caption("No tasks yet.")
+    if len(tk) > 0:
+        c.bar_chart(tk["status"].value_counts())
+    else:
+        c.caption("No tasks yet.")
+        
     d.subheader("Top performers")
     top = emp.assign(score=emp["final_score"].fillna(emp["predicted_score"])).dropna(subset=["score"]).sort_values("score", ascending=False).head(5)
-    d.dataframe(top[["name", "department", "designation", "score"]], hide_index=True) if len(top) else d.caption("No scores recorded yet (see Performance).")
+    if len(top) > 0:
+        d.dataframe(top[["name", "department", "designation", "score"]], hide_index=True)
+    else:
+        d.caption("No scores recorded yet (see Performance).")
+
     rt = risk_table()
     hi = rt[rt["level"] == "High"].head(3)
     if len(hi):
