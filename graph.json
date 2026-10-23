@@ -1,0 +1,2238 @@
+{
+  "nodes": [
+    {
+      "id": "file:app (1).py",
+      "type": "file",
+      "name": "app (1).py",
+      "source_system": "python"
+    },
+    {
+      "id": "func:app (1).py:employee_picker",
+      "type": "function",
+      "name": "employee_picker",
+      "source_system": "python",
+      "metadata": {
+        "file": "app (1).py",
+        "lineno": 74
+      }
+    },
+    {
+      "id": "table:home",
+      "type": "table",
+      "name": "home",
+      "source_system": "inferred_from_code",
+      "metadata": {
+        "inferred": true
+      }
+    },
+    {
+      "id": "file:database.py",
+      "type": "file",
+      "name": "database.py",
+      "source_system": "python"
+    },
+    {
+      "id": "func:database.py:_server_connection",
+      "type": "function",
+      "name": "_server_connection",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 15
+      }
+    },
+    {
+      "id": "func:database.py:get_connection",
+      "type": "function",
+      "name": "get_connection",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 24
+      }
+    },
+    {
+      "id": "func:database.py:init_db",
+      "type": "function",
+      "name": "init_db",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 28
+      }
+    },
+    {
+      "id": "func:database.py:_query_df",
+      "type": "function",
+      "name": "_query_df",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 115
+      }
+    },
+    {
+      "id": "func:database.py:_execute",
+      "type": "function",
+      "name": "_execute",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 123
+      }
+    },
+    {
+      "id": "func:database.py:add_employee",
+      "type": "function",
+      "name": "add_employee",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 138
+      }
+    },
+    {
+      "id": "func:database.py:get_employees",
+      "type": "function",
+      "name": "get_employees",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 151
+      }
+    },
+    {
+      "id": "func:database.py:search_employees",
+      "type": "function",
+      "name": "search_employees",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 155
+      }
+    },
+    {
+      "id": "func:database.py:delete_employee",
+      "type": "function",
+      "name": "delete_employee",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 163
+      }
+    },
+    {
+      "id": "func:database.py:update_status",
+      "type": "function",
+      "name": "update_status",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 167
+      }
+    },
+    {
+      "id": "func:database.py:update_prediction",
+      "type": "function",
+      "name": "update_prediction",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 172
+      }
+    },
+    {
+      "id": "func:database.py:update_final_score",
+      "type": "function",
+      "name": "update_final_score",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 177
+      }
+    },
+    {
+      "id": "func:database.py:mark_attendance",
+      "type": "function",
+      "name": "mark_attendance",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 186
+      }
+    },
+    {
+      "id": "func:database.py:get_attendance",
+      "type": "function",
+      "name": "get_attendance",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 201
+      }
+    },
+    {
+      "id": "func:database.py:add_task",
+      "type": "function",
+      "name": "add_task",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 229
+      }
+    },
+    {
+      "id": "func:database.py:get_tasks",
+      "type": "function",
+      "name": "get_tasks",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 242
+      }
+    },
+    {
+      "id": "func:database.py:update_task_status",
+      "type": "function",
+      "name": "update_task_status",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 261
+      }
+    },
+    {
+      "id": "func:database.py:add_leave",
+      "type": "function",
+      "name": "add_leave",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 274
+      }
+    },
+    {
+      "id": "func:database.py:get_leaves",
+      "type": "function",
+      "name": "get_leaves",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 285
+      }
+    },
+    {
+      "id": "func:database.py:update_leave_status",
+      "type": "function",
+      "name": "update_leave_status",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 297
+      }
+    },
+    {
+      "id": "func:database.py:refresh_employee_metrics",
+      "type": "function",
+      "name": "refresh_employee_metrics",
+      "source_system": "python",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 306
+      }
+    },
+    {
+      "id": "table:unresolved",
+      "type": "table",
+      "name": "unresolved",
+      "source_system": "inferred_from_code",
+      "metadata": {
+        "inferred": true
+      }
+    },
+    {
+      "id": "table:employees",
+      "type": "table",
+      "name": "employees",
+      "source_system": "inferred_from_code",
+      "metadata": {
+        "inferred": true
+      }
+    },
+    {
+      "id": "table:daily_attendance",
+      "type": "table",
+      "name": "daily_attendance",
+      "source_system": "inferred_from_code",
+      "metadata": {
+        "inferred": true
+      }
+    },
+    {
+      "id": "table:check_in",
+      "type": "table",
+      "name": "check_in",
+      "source_system": "inferred_from_code",
+      "metadata": {
+        "inferred": true
+      }
+    },
+    {
+      "id": "table:daily_tasks",
+      "type": "table",
+      "name": "daily_tasks",
+      "source_system": "inferred_from_code",
+      "metadata": {
+        "inferred": true
+      }
+    },
+    {
+      "id": "table:leave_requests",
+      "type": "table",
+      "name": "leave_requests",
+      "source_system": "inferred_from_code",
+      "metadata": {
+        "inferred": true
+      }
+    },
+    {
+      "id": "file:emplyees_system.py",
+      "type": "file",
+      "name": "emplyees_system.py",
+      "source_system": "python"
+    },
+    {
+      "id": "func:emplyees_system.py:_secret",
+      "type": "function",
+      "name": "_secret",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 78
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:_db_url",
+      "type": "function",
+      "name": "_db_url",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 88
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:_make_engine",
+      "type": "function",
+      "name": "_make_engine",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 123
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:db",
+      "type": "function",
+      "name": "db",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 141
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:q",
+      "type": "function",
+      "name": "q",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 150
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:ex",
+      "type": "function",
+      "name": "ex",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 155
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:audit",
+      "type": "function",
+      "name": "audit",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 160
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:_num",
+      "type": "function",
+      "name": "_num",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 164
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:emp_df",
+      "type": "function",
+      "name": "emp_df",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 171
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:att_df",
+      "type": "function",
+      "name": "att_df",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 175
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:task_df",
+      "type": "function",
+      "name": "task_df",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 182
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:leave_df",
+      "type": "function",
+      "name": "leave_df",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 186
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:review_df",
+      "type": "function",
+      "name": "review_df",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 190
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:_secs",
+      "type": "function",
+      "name": "_secs",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 199
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:add_employee",
+      "type": "function",
+      "name": "add_employee",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 212
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:set_employee_status",
+      "type": "function",
+      "name": "set_employee_status",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 223
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:delete_employee",
+      "type": "function",
+      "name": "delete_employee",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 230
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:mark_attendance",
+      "type": "function",
+      "name": "mark_attendance",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 238
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:add_task",
+      "type": "function",
+      "name": "add_task",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 254
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:set_task_status",
+      "type": "function",
+      "name": "set_task_status",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 262
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:leave_days",
+      "type": "function",
+      "name": "leave_days",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 271
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:leave_balance",
+      "type": "function",
+      "name": "leave_balance",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 275
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:apply_leave",
+      "type": "function",
+      "name": "apply_leave",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 284
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:decide_leave",
+      "type": "function",
+      "name": "decide_leave",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 296
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:sentiment",
+      "type": "function",
+      "name": "sentiment",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 309
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:add_review",
+      "type": "function",
+      "name": "add_review",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 315
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:refresh_metrics",
+      "type": "function",
+      "name": "refresh_metrics",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 323
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:refresh_all",
+      "type": "function",
+      "name": "refresh_all",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 335
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:feature_frame",
+      "type": "function",
+      "name": "feature_frame",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 343
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:train_performance",
+      "type": "function",
+      "name": "train_performance",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 375
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:importances",
+      "type": "function",
+      "name": "importances",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 391
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:risk_table",
+      "type": "function",
+      "name": "risk_table",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 407
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:segments",
+      "type": "function",
+      "name": "segments",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 427
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:absence_forecast",
+      "type": "function",
+      "name": "absence_forecast",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 441
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:seed_demo",
+      "type": "function",
+      "name": "seed_demo",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 469
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:llm_key",
+      "type": "function",
+      "name": "llm_key",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 518
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:ai_on",
+      "type": "function",
+      "name": "ai_on",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 522
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:llm_call",
+      "type": "function",
+      "name": "llm_call",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 526
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:llm_text",
+      "type": "function",
+      "name": "llm_text",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 542
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:_t",
+      "type": "function",
+      "name": "_t",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 551
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:_pd_records",
+      "type": "function",
+      "name": "_pd_records",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 578
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:overview",
+      "type": "function",
+      "name": "overview",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 582
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:agent_read",
+      "type": "function",
+      "name": "agent_read",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 594
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:agent_run",
+      "type": "function",
+      "name": "agent_run",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 632
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:agent_describe",
+      "type": "function",
+      "name": "agent_describe",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 670
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:agent_execute",
+      "type": "function",
+      "name": "agent_execute",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 678
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:offline_answer",
+      "type": "function",
+      "name": "offline_answer",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 692
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:emp_context",
+      "type": "function",
+      "name": "emp_context",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 717
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:offline_doc",
+      "type": "function",
+      "name": "offline_doc",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 733
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:gen_doc",
+      "type": "function",
+      "name": "gen_doc",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 751
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:run",
+      "type": "function",
+      "name": "run",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 773
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:emp_pick",
+      "type": "function",
+      "name": "emp_pick",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 789
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:need_data",
+      "type": "function",
+      "name": "need_data",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 800
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:dashboard",
+      "type": "function",
+      "name": "dashboard",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 804
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:employees_page",
+      "type": "function",
+      "name": "employees_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 849
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:attendance_page",
+      "type": "function",
+      "name": "attendance_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 930
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:tasks_page",
+      "type": "function",
+      "name": "tasks_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 984
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:leave_advice",
+      "type": "function",
+      "name": "leave_advice",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1018
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:leaves_page",
+      "type": "function",
+      "name": "leaves_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1040
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:performance_page",
+      "type": "function",
+      "name": "performance_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1086
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:insights_page",
+      "type": "function",
+      "name": "insights_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1158
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:assistant_page",
+      "type": "function",
+      "name": "assistant_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1213
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:writer_page",
+      "type": "function",
+      "name": "writer_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1249
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:settings_page",
+      "type": "function",
+      "name": "settings_page",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1272
+      }
+    },
+    {
+      "id": "func:emplyees_system.py:password_gate",
+      "type": "function",
+      "name": "password_gate",
+      "source_system": "python",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 1311
+      }
+    },
+    {
+      "id": "file:main.py",
+      "type": "file",
+      "name": "main.py",
+      "source_system": "python"
+    },
+    {
+      "id": "func:main.py:startup",
+      "type": "function",
+      "name": "startup",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 29
+      }
+    },
+    {
+      "id": "func:main.py:to_json",
+      "type": "function",
+      "name": "to_json",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 34
+      }
+    },
+    {
+      "id": "func:main.py:home",
+      "type": "function",
+      "name": "home",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 86
+      }
+    },
+    {
+      "id": "func:main.py:predict_performance",
+      "type": "function",
+      "name": "predict_performance",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 95
+      }
+    },
+    {
+      "id": "func:main.py:create_employee",
+      "type": "function",
+      "name": "create_employee",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 124
+      }
+    },
+    {
+      "id": "func:main.py:list_employees",
+      "type": "function",
+      "name": "list_employees",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 135
+      }
+    },
+    {
+      "id": "func:main.py:change_status",
+      "type": "function",
+      "name": "change_status",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 143
+      }
+    },
+    {
+      "id": "func:main.py:remove_employee",
+      "type": "function",
+      "name": "remove_employee",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 149
+      }
+    },
+    {
+      "id": "func:main.py:save_attendance",
+      "type": "function",
+      "name": "save_attendance",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 159
+      }
+    },
+    {
+      "id": "func:main.py:list_attendance",
+      "type": "function",
+      "name": "list_attendance",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 167
+      }
+    },
+    {
+      "id": "func:main.py:create_task",
+      "type": "function",
+      "name": "create_task",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 176
+      }
+    },
+    {
+      "id": "func:main.py:list_tasks",
+      "type": "function",
+      "name": "list_tasks",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 182
+      }
+    },
+    {
+      "id": "func:main.py:change_task_status",
+      "type": "function",
+      "name": "change_task_status",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 190
+      }
+    },
+    {
+      "id": "func:main.py:apply_leave",
+      "type": "function",
+      "name": "apply_leave",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 202
+      }
+    },
+    {
+      "id": "func:main.py:list_leaves",
+      "type": "function",
+      "name": "list_leaves",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 210
+      }
+    },
+    {
+      "id": "func:main.py:decide_leave",
+      "type": "function",
+      "name": "decide_leave",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 215
+      }
+    },
+    {
+      "id": "func:main.py:daily_summary",
+      "type": "function",
+      "name": "daily_summary",
+      "source_system": "python",
+      "metadata": {
+        "file": "main.py",
+        "lineno": 227
+      }
+    },
+    {
+      "id": "file:test_connection.py",
+      "type": "file",
+      "name": "test_connection.py",
+      "source_system": "python"
+    },
+    {
+      "id": "func:test_connection.py:<module>",
+      "type": "function",
+      "name": "<module>",
+      "source_system": "python",
+      "metadata": {
+        "file": "test_connection.py",
+        "lineno": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "func:app (1).py:employee_picker",
+      "target": "file:app (1).py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in app (1).py:74"
+    },
+    {
+      "source": "func:app (1).py:employee_picker",
+      "target": "table:home",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "Select Employee\", key=None):\n    \"\"\"Dropdown of employees, returns (id, name) or",
+      "metadata": {
+        "file": "app (1).py",
+        "lineno": 74
+      }
+    },
+    {
+      "source": "func:database.py:_server_connection",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:15"
+    },
+    {
+      "source": "func:database.py:get_connection",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:24"
+    },
+    {
+      "source": "func:database.py:init_db",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:28"
+    },
+    {
+      "source": "func:database.py:_query_df",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:115"
+    },
+    {
+      "source": "func:database.py:_execute",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:123"
+    },
+    {
+      "source": "func:database.py:_execute",
+      "target": "table:unresolved",
+      "type": "dynamic_unresolved",
+      "confidence": 0.15,
+      "evidence": "execute(sql,",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 123,
+        "variable": "sql"
+      }
+    },
+    {
+      "source": "func:database.py:add_employee",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:138"
+    },
+    {
+      "source": "func:database.py:add_employee",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        INSERT INTO employees\n        (name, email, phone, department, designat",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 138
+      }
+    },
+    {
+      "source": "func:database.py:get_employees",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:151"
+    },
+    {
+      "source": "func:database.py:get_employees",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "SELECT * FROM employees ORDER BY id",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 151
+      }
+    },
+    {
+      "source": "func:database.py:search_employees",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:155"
+    },
+    {
+      "source": "func:database.py:search_employees",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "SELECT * FROM employees WHERE name LIKE %s OR department LIKE %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 155
+      }
+    },
+    {
+      "source": "func:database.py:delete_employee",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:163"
+    },
+    {
+      "source": "func:database.py:delete_employee",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "DELETE FROM employees WHERE id = %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 163
+      }
+    },
+    {
+      "source": "func:database.py:update_status",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:167"
+    },
+    {
+      "source": "func:database.py:update_status",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "UPDATE employees SET status = %s WHERE id = %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 167
+      }
+    },
+    {
+      "source": "func:database.py:update_prediction",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:172"
+    },
+    {
+      "source": "func:database.py:update_prediction",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "UPDATE employees SET predicted_score = %s WHERE id = %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 172
+      }
+    },
+    {
+      "source": "func:database.py:update_final_score",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:177"
+    },
+    {
+      "source": "func:database.py:update_final_score",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "UPDATE employees SET final_score = %s WHERE id = %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 177
+      }
+    },
+    {
+      "source": "func:database.py:mark_attendance",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:186"
+    },
+    {
+      "source": "func:database.py:mark_attendance",
+      "target": "table:daily_attendance",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        INSERT INTO daily_attendance (employee_id, work_date, check_in, check_o",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 186
+      }
+    },
+    {
+      "source": "func:database.py:mark_attendance",
+      "target": "table:check_in",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        INSERT INTO daily_attendance (employee_id, work_date, check_in, check_o",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 186
+      }
+    },
+    {
+      "source": "func:database.py:get_attendance",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:201"
+    },
+    {
+      "source": "func:database.py:get_attendance",
+      "target": "table:daily_attendance",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n            SELECT a.id, e.name, e.department, a.work_date,\n                   ",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 201
+      }
+    },
+    {
+      "source": "func:database.py:get_attendance",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n            SELECT a.id, e.name, e.department, a.work_date,\n                   ",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 201
+      }
+    },
+    {
+      "source": "func:database.py:get_attendance",
+      "target": "table:daily_attendance",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT a.id, e.name, e.department, a.work_date,\n               a.check_",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 201
+      }
+    },
+    {
+      "source": "func:database.py:get_attendance",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT a.id, e.name, e.department, a.work_date,\n               a.check_",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 201
+      }
+    },
+    {
+      "source": "func:database.py:add_task",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:229"
+    },
+    {
+      "source": "func:database.py:add_task",
+      "target": "table:daily_tasks",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        INSERT INTO daily_tasks\n        (employee_id, task_date, title, descrip",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 229
+      }
+    },
+    {
+      "source": "func:database.py:get_tasks",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:242"
+    },
+    {
+      "source": "func:database.py:get_tasks",
+      "target": "table:daily_tasks",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT t.id, e.name, t.task_date, t.title, t.description,\n             ",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 242
+      }
+    },
+    {
+      "source": "func:database.py:get_tasks",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT t.id, e.name, t.task_date, t.title, t.description,\n             ",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 242
+      }
+    },
+    {
+      "source": "func:database.py:update_task_status",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:261"
+    },
+    {
+      "source": "func:database.py:update_task_status",
+      "target": "table:daily_tasks",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "UPDATE daily_tasks SET status = %s WHERE id = %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 261
+      }
+    },
+    {
+      "source": "func:database.py:update_task_status",
+      "target": "table:daily_tasks",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "SELECT employee_id FROM daily_tasks WHERE id = %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 261
+      }
+    },
+    {
+      "source": "func:database.py:add_leave",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:274"
+    },
+    {
+      "source": "func:database.py:add_leave",
+      "target": "table:leave_requests",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        INSERT INTO leave_requests\n        (employee_id, leave_type, start_date",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 274
+      }
+    },
+    {
+      "source": "func:database.py:get_leaves",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:285"
+    },
+    {
+      "source": "func:database.py:get_leaves",
+      "target": "table:leave_requests",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT l.id, e.name, l.leave_type, l.start_date, l.end_date,\n          ",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 285
+      }
+    },
+    {
+      "source": "func:database.py:get_leaves",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT l.id, e.name, l.leave_type, l.start_date, l.end_date,\n          ",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 285
+      }
+    },
+    {
+      "source": "func:database.py:update_leave_status",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:297"
+    },
+    {
+      "source": "func:database.py:update_leave_status",
+      "target": "table:leave_requests",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "UPDATE leave_requests SET status = %s WHERE id = %s",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 297
+      }
+    },
+    {
+      "source": "func:database.py:refresh_employee_metrics",
+      "target": "file:database.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in database.py:306"
+    },
+    {
+      "source": "func:database.py:refresh_employee_metrics",
+      "target": "table:home",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT\n            COUNT(*) AS total_days,\n            SUM(CASE WHEN st",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 306
+      }
+    },
+    {
+      "source": "func:database.py:refresh_employee_metrics",
+      "target": "table:daily_attendance",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT AVG(TIME_TO_SEC(TIMEDIFF(check_out, check_in)) / 3600) AS avg_ho",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 306
+      }
+    },
+    {
+      "source": "func:database.py:refresh_employee_metrics",
+      "target": "table:daily_tasks",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        SELECT COUNT(*) AS total,\n               SUM(CASE WHEN status = 'Comple",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 306
+      }
+    },
+    {
+      "source": "func:database.py:refresh_employee_metrics",
+      "target": "table:employees",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "\n        UPDATE employees\n        SET attendance = %s, avg_work_hours = %s, task",
+      "metadata": {
+        "file": "database.py",
+        "lineno": 306
+      }
+    },
+    {
+      "source": "func:emplyees_system.py:_secret",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:78"
+    },
+    {
+      "source": "func:emplyees_system.py:_db_url",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:88"
+    },
+    {
+      "source": "func:emplyees_system.py:_make_engine",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:123"
+    },
+    {
+      "source": "func:emplyees_system.py:db",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:141"
+    },
+    {
+      "source": "func:emplyees_system.py:q",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:150"
+    },
+    {
+      "source": "func:emplyees_system.py:ex",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:155"
+    },
+    {
+      "source": "func:emplyees_system.py:ex",
+      "target": "table:unresolved",
+      "type": "dynamic_unresolved",
+      "confidence": 0.15,
+      "evidence": "execute(stmt)",
+      "metadata": {
+        "file": "emplyees_system.py",
+        "lineno": 155,
+        "variable": "stmt"
+      }
+    },
+    {
+      "source": "func:emplyees_system.py:audit",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:160"
+    },
+    {
+      "source": "func:emplyees_system.py:_num",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:164"
+    },
+    {
+      "source": "func:emplyees_system.py:emp_df",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:171"
+    },
+    {
+      "source": "func:emplyees_system.py:att_df",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:175"
+    },
+    {
+      "source": "func:emplyees_system.py:task_df",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:182"
+    },
+    {
+      "source": "func:emplyees_system.py:leave_df",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:186"
+    },
+    {
+      "source": "func:emplyees_system.py:review_df",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:190"
+    },
+    {
+      "source": "func:emplyees_system.py:_secs",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:199"
+    },
+    {
+      "source": "func:emplyees_system.py:add_employee",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:212"
+    },
+    {
+      "source": "func:emplyees_system.py:set_employee_status",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:223"
+    },
+    {
+      "source": "func:emplyees_system.py:delete_employee",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:230"
+    },
+    {
+      "source": "func:emplyees_system.py:mark_attendance",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:238"
+    },
+    {
+      "source": "func:emplyees_system.py:add_task",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:254"
+    },
+    {
+      "source": "func:emplyees_system.py:set_task_status",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:262"
+    },
+    {
+      "source": "func:emplyees_system.py:leave_days",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:271"
+    },
+    {
+      "source": "func:emplyees_system.py:leave_balance",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:275"
+    },
+    {
+      "source": "func:emplyees_system.py:apply_leave",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:284"
+    },
+    {
+      "source": "func:emplyees_system.py:decide_leave",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:296"
+    },
+    {
+      "source": "func:emplyees_system.py:sentiment",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:309"
+    },
+    {
+      "source": "func:emplyees_system.py:add_review",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:315"
+    },
+    {
+      "source": "func:emplyees_system.py:refresh_metrics",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:323"
+    },
+    {
+      "source": "func:emplyees_system.py:refresh_all",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:335"
+    },
+    {
+      "source": "func:emplyees_system.py:feature_frame",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:343"
+    },
+    {
+      "source": "func:emplyees_system.py:train_performance",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:375"
+    },
+    {
+      "source": "func:emplyees_system.py:importances",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:391"
+    },
+    {
+      "source": "func:emplyees_system.py:risk_table",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:407"
+    },
+    {
+      "source": "func:emplyees_system.py:segments",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:427"
+    },
+    {
+      "source": "func:emplyees_system.py:absence_forecast",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:441"
+    },
+    {
+      "source": "func:emplyees_system.py:seed_demo",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:469"
+    },
+    {
+      "source": "func:emplyees_system.py:llm_key",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:518"
+    },
+    {
+      "source": "func:emplyees_system.py:ai_on",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:522"
+    },
+    {
+      "source": "func:emplyees_system.py:llm_call",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:526"
+    },
+    {
+      "source": "func:emplyees_system.py:llm_text",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:542"
+    },
+    {
+      "source": "func:emplyees_system.py:_t",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:551"
+    },
+    {
+      "source": "func:emplyees_system.py:_pd_records",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:578"
+    },
+    {
+      "source": "func:emplyees_system.py:overview",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:582"
+    },
+    {
+      "source": "func:emplyees_system.py:agent_read",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:594"
+    },
+    {
+      "source": "func:emplyees_system.py:agent_run",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:632"
+    },
+    {
+      "source": "func:emplyees_system.py:agent_describe",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:670"
+    },
+    {
+      "source": "func:emplyees_system.py:agent_execute",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:678"
+    },
+    {
+      "source": "func:emplyees_system.py:offline_answer",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:692"
+    },
+    {
+      "source": "func:emplyees_system.py:emp_context",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:717"
+    },
+    {
+      "source": "func:emplyees_system.py:offline_doc",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:733"
+    },
+    {
+      "source": "func:emplyees_system.py:gen_doc",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:751"
+    },
+    {
+      "source": "func:emplyees_system.py:run",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:773"
+    },
+    {
+      "source": "func:emplyees_system.py:emp_pick",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:789"
+    },
+    {
+      "source": "func:emplyees_system.py:need_data",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:800"
+    },
+    {
+      "source": "func:emplyees_system.py:dashboard",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:804"
+    },
+    {
+      "source": "func:emplyees_system.py:employees_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:849"
+    },
+    {
+      "source": "func:emplyees_system.py:attendance_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:930"
+    },
+    {
+      "source": "func:emplyees_system.py:tasks_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:984"
+    },
+    {
+      "source": "func:emplyees_system.py:leave_advice",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1018"
+    },
+    {
+      "source": "func:emplyees_system.py:leaves_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1040"
+    },
+    {
+      "source": "func:emplyees_system.py:performance_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1086"
+    },
+    {
+      "source": "func:emplyees_system.py:insights_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1158"
+    },
+    {
+      "source": "func:emplyees_system.py:assistant_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1213"
+    },
+    {
+      "source": "func:emplyees_system.py:writer_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1249"
+    },
+    {
+      "source": "func:emplyees_system.py:settings_page",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1272"
+    },
+    {
+      "source": "func:emplyees_system.py:password_gate",
+      "target": "file:emplyees_system.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in emplyees_system.py:1311"
+    },
+    {
+      "source": "func:main.py:startup",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:29"
+    },
+    {
+      "source": "func:main.py:to_json",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:34"
+    },
+    {
+      "source": "func:main.py:home",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:86"
+    },
+    {
+      "source": "func:main.py:predict_performance",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:95"
+    },
+    {
+      "source": "func:main.py:create_employee",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:124"
+    },
+    {
+      "source": "func:main.py:list_employees",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:135"
+    },
+    {
+      "source": "func:main.py:change_status",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:143"
+    },
+    {
+      "source": "func:main.py:remove_employee",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:149"
+    },
+    {
+      "source": "func:main.py:save_attendance",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:159"
+    },
+    {
+      "source": "func:main.py:list_attendance",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:167"
+    },
+    {
+      "source": "func:main.py:create_task",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:176"
+    },
+    {
+      "source": "func:main.py:list_tasks",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:182"
+    },
+    {
+      "source": "func:main.py:change_task_status",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:190"
+    },
+    {
+      "source": "func:main.py:apply_leave",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:202"
+    },
+    {
+      "source": "func:main.py:list_leaves",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:210"
+    },
+    {
+      "source": "func:main.py:decide_leave",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:215"
+    },
+    {
+      "source": "func:main.py:daily_summary",
+      "target": "file:main.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in main.py:227"
+    },
+    {
+      "source": "func:test_connection.py:<module>",
+      "target": "file:test_connection.py",
+      "type": "structural_belongs_to",
+      "confidence": 1,
+      "evidence": "in test_connection.py:1"
+    },
+    {
+      "source": "func:test_connection.py:<module>",
+      "target": "table:daily_attendance",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "SELECT COUNT(*) FROM daily_attendance ",
+      "metadata": {
+        "file": "test_connection.py",
+        "lineno": 1
+      }
+    },
+    {
+      "source": "func:test_connection.py:<module>",
+      "target": "table:daily_tasks",
+      "type": "static_sql_string",
+      "confidence": 0.96,
+      "evidence": "SELECT COUNT(*) FROM daily_tasks ",
+      "metadata": {
+        "file": "test_connection.py",
+        "lineno": 1
+      }
+    }
+  ],
+  "metrics": {
+    "total_nodes": 117,
+    "total_edges": 136,
+    "code_to_db": {
+      "total_access_calls": 31,
+      "static_sql_count": 29,
+      "orm_call_count": 0,
+      "dynamic_unresolved_count": 2,
+      "dynamic_unresolved_ratio": 0.065
+    }
+  }
+}
